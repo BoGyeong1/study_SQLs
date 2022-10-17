@@ -3,9 +3,16 @@ SELECT OrderID
 FROM Orders
 WHERE EmployeeID
 IN (
+<<<<<<< HEAD
     SELECT EmployeeID
     FROM Employees
     WHERE EmployeeID
     IN (7, 9)
+=======
+	SELECT EmployeeID
+	FROM Employees
+	WHERE EmployeeID
+	IN (7, 9)
+>>>>>>> 2b469dc3aa5d49e1cff4f4e9fc2ed68ed2d082bb
 );
 -- 결과 : 115건
