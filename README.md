@@ -8,4 +8,4 @@
 - [query SOO](./SOO/where_and_not.sql)
 ### Employees_Order_totals 🔍
 - [query SOO](./SOO/Employees_Order_totals.sql)
-- [query bogyengjin](./bogyeongjin/w3schools/Employees_Order_totals.sql)
+- [query bogyeongjin](./bogyeongjin/w3schools/Employees_Order_totals.sql)
