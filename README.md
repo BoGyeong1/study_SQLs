@@ -6,3 +6,5 @@
 ### where_and_not
 - [query bogyeongjin](./bogyeongjin/w3schools/where_and_not.sql)
 - [query SOO](./SOO/where_and_not.sql)
+### Employees_Order_totals 🔍
+- [query SOO](./SOO/Employees_Order_totals.sql)
