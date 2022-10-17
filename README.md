@@ -11,3 +11,4 @@
 - [query bogyeongjin](./bogyeongjin/w3schools/Employees_Order_totals.sql)
 ### Categories_Products_totals 🍕
 - [query SOO](./SOO/w3schools/Categories_Products_totals.sql)
+- [query bogyeongjin](./bogyeongjin/w3schools/Categories_Products_totals.sql)
