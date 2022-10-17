@@ -1,4 +1,4 @@
 # study_SQLs
 study SQLs
-bogyeong
+bogyeong  
 SOO☕
