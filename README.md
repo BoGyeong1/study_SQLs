@@ -1,11 +1,5 @@
 # study_SQLs
-study SQLs  
 
-끼워넣기 짝수 
-끼워넣기 짝수 ? SOO  
-bogyeong  
-SOO☕  
-두번째 끼워넣기 짝수  
-두번째 끼워넣기 짝수 ? SOO  
-짝수 기록  
-홀수 기록
+### where_in_subquery : 서브쿼리를 IN 이용해 활용
+
+- [query SOO](./SOO/where_in_subquery.sql)
