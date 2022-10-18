@@ -17,6 +17,8 @@
 
 ### CategoryName_Products_Order
 - [SOO](./SOO/w3schools/CategoryName_Products_Order.sql)
+- [query bogyeongjin](./bogyeongjin/w3schools/CategoryName_Products_Order.sql)
 
 ### CategoryName_Products
 - [SOO](./SOO/w3schools/CategoryName_Products.sql)
+- [query bogyeongjin](./bogyeongjin/w3schools/CategoryName_Products.sql)
