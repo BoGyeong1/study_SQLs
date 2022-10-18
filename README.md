@@ -22,3 +22,6 @@
 ### CategoryName_Products
 - [SOO](./SOO/w3schools/CategoryName_Products.sql)
 - [query bogyeongjin](./bogyeongjin/w3schools/CategoryName_Products.sql)
+
+### Categories_Products_Count
+- [query bogyeongjin](./bogyeongjin/w3schools/Categories_Products_Count.sql)
