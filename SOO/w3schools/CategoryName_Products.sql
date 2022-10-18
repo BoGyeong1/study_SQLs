@@ -11,9 +11,7 @@ WHERE (
     IN ( 'Dairy Products', 'Seafood' )
     )
 ) AND (
-    Price
-    BETWEEN 10 AND 50
-);
+    Price BETWEEN 10 AND 50 );
 
 -- SUM(Price) = 390.34
 -- AVG(Price) = 24.396250
