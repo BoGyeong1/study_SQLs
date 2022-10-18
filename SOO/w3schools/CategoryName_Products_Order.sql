@@ -35,7 +35,8 @@ IN (
         IN ('Dairy Products', 'Seafood')
     ) AND (
         Price BETWEEN 10 AND 50
-    );
+    )
+);
 
 
 
