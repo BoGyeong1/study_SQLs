@@ -11,4 +11,18 @@ WHERE OrderID IN (SELECT OrderID
                                                         WHERE CategoryName
                                                         IN ( 'Dairy Products', 'Seafood'))
                                     AND (PRICE BETWEEN 10.00 AND 50.00)));
+                                    
+
+-- 총 갯수 구하는 쿼리
+SELECT COUNT(OrderID)
+FROM Orders
+WHERE OrderID IN (SELECT OrderID
+                FROM OrderDetails
+                WHERE ProductID IN (SELECT ProductID
+                                    FROM Products
+                                    WHERE CategoryID IN (SELECT CategoryID
+                                                        FROM Categories
+                                                        WHERE CategoryName
+                                                        IN ( 'Dairy Products', 'Seafood'))
+                                    AND (PRICE BETWEEN 10.00 AND 50.00)));
                                     -- 답 : 379개
