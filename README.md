@@ -12,3 +12,5 @@
 ### Categories_Products_totals 🍕
 - [query SOO](./SOO/w3schools/Categories_Products_totals.sql)
 - [query bogyeongjin](./bogyeongjin/w3schools/Categories_Products_totals.sql)
+### DataTypes
+- [자료형](./SOO/w3schools/Data_Types.md)
