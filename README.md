@@ -14,3 +14,9 @@
 - [query bogyeongjin](./bogyeongjin/w3schools/Categories_Products_totals.sql)
 ### DataTypes
 - [자료형](./SOO/w3schools/Data_Types.md)
+
+### CategoryName_Products_Order
+- [SOO](./SOO/w3schools/CategoryName_Products_Order.sql)
+
+### CategoryName_Products
+- [SOO](./SOO/w3schools/CategoryName_Products.sql)
