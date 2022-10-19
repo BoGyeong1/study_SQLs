@@ -29,7 +29,7 @@ VALUES ('MANAGER', 'B3')
 SELECT *
 FROM auth_names;
 
--- auths 테이블 값 입력
+-- auths 테이블 값 입력 (회원가입)
 
 INSERT INTO auths (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUES ('U1', 'B1')
