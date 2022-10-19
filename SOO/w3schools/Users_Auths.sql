@@ -1,5 +1,8 @@
+
+-- -------- < Create DB > -------- --
 -- CREATE SCHEMA `study_sqls` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci ;
 
+-- -------- < Create Table > -------- --
 -- CREATE TABLE Auths
 -- (
 --   Auth_ID   VARCHAR(200) NOT NULL COMMENT '권한 대표값',
@@ -32,6 +35,7 @@
 --     FOREIGN KEY (Auth_ID)
 --     REFERENCES Auths (Auth_ID);
 
+-- -------- < 회원가입 - 모두 > -------- --
 INSERT INTO users ( User_ID, Name, Email, Position )
 VALUES ( 'U1', 'Paul', 'paul01@gmail.com', 'IT Billing' ),
 ( 'U2', 'Allen', 'texas@imfblog.org', 'Engineering' ),
@@ -39,12 +43,14 @@ VALUES ( 'U1', 'Paul', 'paul01@gmail.com', 'IT Billing' ),
 ( 'U4', 'Paul', 'paul_p@naver.com', 'Developer' )
 ;
 
+-- -------- < 권한 생성 > -------- --
 INSERT INTO auths ( Auth_ID, Auth_Name )
 VALUES ( 'B1', 'GUEST' ),
 ( 'B2', 'ADMIN' ),
 ( 'B3', 'MANAGER' )
 ;
 
+-- -------- < 권한 부여 > -------- --
 INSERT INTO users_auths ( User_ID, Auth_ID )
 VALUES ( 'U1', 'B1' ),
 ( 'U1', 'B2' ),
@@ -56,6 +62,7 @@ VALUES ( 'U1', 'B1' ),
 ( 'U4', 'B1' )
 ;
 
+-- -- -------- < U2, U4 회원 탈퇴 > -------- --
 DELETE FROM users_auths
 WHERE User_ID IN ( 'U2', 'U4' )
 ;
@@ -64,6 +71,7 @@ DELETE FROM users
 WHERE User_ID IN ( 'U2', 'U4' )
 ;
 
-SELECT * FROM users;
+-- -- -------- < 결과 확인 > -------- --
+SELECT * FROM users; 
 SELECT * FROM auths;
 SELECT * FROM users_auths;
