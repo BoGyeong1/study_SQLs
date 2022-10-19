@@ -20,7 +20,7 @@
 ### 📁 DataTypes
 - [자료형](./SOO/w3schools/Data_Types.md)
 
-### 🐅 CategoryName_Products_Order
+### 🐅 CategoryName_Products_Order  
 - [query SOO](./SOO/w3schools/CategoryName_Products_Order.sql)
 - [query bogyeongjin](./bogyeongjin/w3schools/CategoryName_Products_Order.sql)
 
@@ -31,3 +31,6 @@
 ### 🐬 Categories_Products_Count
 - [query bogyeongjin](./bogyeongjin/w3schools/Categories_Products_Count.sql)
 - [query SOO](./SOO/w3schools/Categories_Products_Count.sql)
+
+### 🦓 Products_HAVING
+- [query SOO](./SOO/w3schools/Products_HAVING.sql)
