@@ -35,3 +35,6 @@
 ### 🦓 Products_HAVING
 - [query SOO](./SOO/w3schools/Products_HAVING.sql)
 - [query bogyeongjin](./bogyeongjin/w3schools/Product_HAVING.sql)
+
+### Users_Auths_query
+- [query bogyeongjin](./bogyeongjin/Users_Auths_query.sql)
