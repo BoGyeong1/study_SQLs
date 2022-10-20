@@ -46,3 +46,4 @@
 
 ### 🐻 Products_Quantity.sql
 - [query SOO](./SOO/w3schools/Products_Quantity.sql)
+- [query bogyeongjin](./bogyeongjin/w3schools/Products_Quantity.sql)
