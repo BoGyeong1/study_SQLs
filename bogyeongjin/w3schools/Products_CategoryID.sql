@@ -5,7 +5,7 @@ SELECT Products.ProductName, Suppliers.SupplierName
 FROM Products
 INNER JOIN Suppliers
 ON Products.SupplierID = Suppliers.SupplierID
-WHERE Products.CategoryID IN (5,6)
+AND Products.CategoryID IN (5,6)
 ;
 
 -- Number of Records: 13
