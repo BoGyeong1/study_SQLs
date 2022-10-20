@@ -43,3 +43,6 @@
 ### 🐻‍❄️ Products_CategoryID.sql
 - [query SOO](./SOO/w3schools/Products_CategoryID.sql)
 - [query bogyeongjin](./bogyeongjin/w3schools/Products_CategoryID.sql)
+
+### 🐻 Products_Quantity.sql
+- [query SOO](./SOO/w3schools/Products_Quantity.sql)
