@@ -50,3 +50,4 @@
 
 ### 🦘 Users_Auth_names
 - [query SOO](./SOO/w3schools/Users_Auth_names.sql)
+- [query bogyeongjin](./bogyeongjin/Users_Auth_names.sql)
