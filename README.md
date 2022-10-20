@@ -39,3 +39,6 @@
 ### 🦝 Users_Auths_query
 - [query bogyeongjin](./bogyeongjin/Users_Auths_query.sql)
 - [query SOO](./SOO/w3schools/Users_Auths.sql)
+
+### 🐻‍❄️ Products_CategoryID.sql
+- [query SOO](./SOO/w3schools/Products_CategoryID.sql)
