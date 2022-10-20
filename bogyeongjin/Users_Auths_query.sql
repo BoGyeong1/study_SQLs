@@ -1,4 +1,4 @@
--- users 테이블 값 입력
+-- users 테이블 값 입력 (회원가입)
 INSERT INTO users (UNIQUE_ID, NAME, EMAIL, JOB)
 VALUES ('U1', 'Paul', 'paul01@gmail.com', 'IT Billing')
 ;
@@ -11,10 +11,7 @@ VALUES ('U3', 'Teddy', 'norway@iotm.com', 'IT Billing')
 INSERT INTO users (UNIQUE_ID, NAME, EMAIL, JOB)
 VALUES ('U4', 'Paul', 'paul_p@naver.com', 'Developer')
 ;
--- users 테이블 값 확인
-SELECT *
-FROM users
-;
+
 -- auth_names 테이블 값 입력
 INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
 VALUES ('GUEST', 'B1')
@@ -25,11 +22,9 @@ VALUES ('ADMIN', 'B2')
 INSERT INTO auth_names (AUTH_NAME, UNIQUE_ID)
 VALUES ('MANAGER', 'B3')
 ;
--- auth_names 값 확인
-SELECT *
-FROM auth_names;
 
--- auths 테이블 값 입력 (회원가입)
+
+-- auths 테이블 값 입력 (권한부여)
 
 INSERT INTO auths (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUES ('U1', 'B1')
@@ -55,10 +50,7 @@ VALUES ('U4', 'B2')
 INSERT INTO auths (UNIQUE_ID_USERS, UNIQUE_ID_AUTH_NAMES)
 VALUES ('U4', 'B1')
 ;
--- auths 값 확인
-SELECT *
-FROM auths
-;
+
 
 -- 회원 탈퇴
 
@@ -76,4 +68,19 @@ WHERE UNIQUE_ID_USERS = 'U4'
 ;
 DELETE FROM users 
 WHERE UNIQUE_ID= 'U4'
+;
+
+-- users 테이블 값 확인
+SELECT *
+FROM users
+;
+
+-- auth_names 값 확인
+SELECT *
+FROM auth_names
+;
+
+-- auths 값 확인
+SELECT *
+FROM auths
 ;
